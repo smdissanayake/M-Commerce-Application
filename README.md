@@ -61,9 +61,7 @@
 1. Clone the repo
 
 ```bash
-Copy
-Edit
-git clone https://github.com/your-username/agriconnect.git
+git clone https://github.com/smdissanayake/M-Commerce-Application.git
 ```
 2. **Backend Setup (Java)**
 
