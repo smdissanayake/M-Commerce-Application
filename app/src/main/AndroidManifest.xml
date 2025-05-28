@@ -59,10 +59,10 @@
 
         <meta-data
             android:name="com.google.android.gms.auth.api.signin"
-            android:value="@string/default_web_client_id1" />
+            android:value="*******" />
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyASwsTvTXa-psgiQ5rY3hds8q23mmdDL0E" />
+            android:value="******" />
 
         <activity
             android:name=".SingleViewActivity"
