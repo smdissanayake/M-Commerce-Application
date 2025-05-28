@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CircleImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="CustomRatingBar" parent="Base.Widget.AppCompat.RatingBar">
+        <item name="colorControlActivated">#FFD700</item> <!-- Gold color -->
+        <item name="colorControlNormal">#D3D3D3</item> <!-- Light Gray -->
+    </style>
+
+</resources>

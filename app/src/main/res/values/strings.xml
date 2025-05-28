@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">AgriConnect</string>
+    <string name="login_email">Enter Your Email</string>
+    <string name="login_title">Welcome</string>
+    <string name="login_pw_reset">Reset Password ?</string>
+    <string name="login_or_option">or</string>
+    <string name="login_pw_hint">Enter Your Password</string>
+    <string name="login_register_btn">Register Now</string>
+    <string name="reset_txt_title">Verify Your Email</string>
+    <string name="rset_btn_text">verify Code</string>
+    <string name="code_opt">Enter Your Code</string>
+    <string name="code_Text">Resend Code ?</string>
+    <string name="code_button">confirm</string>
+    <string name="reset_Title">Setup New Password</string>
+    <string name="reset_button">Reset</string>
+    <string name="email_send">Send Email</string>
+    <string name="default_web_client_id">AIzaSyAmc7cH62CGxo15foP4GM02jus4eLDndv8</string>
+    <string name="default_web_client_id1">535727027424-5g4t51uuof368u66pif4frh08ecmd5e1.apps.googleusercontent.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

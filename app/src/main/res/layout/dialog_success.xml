@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_background"
+    app:cardCornerRadius="16dp"
+
+    android:padding="24dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingVertical="10dp">
+
+<com.airbnb.lottie.LottieAnimationView
+    android:id="@+id/successIcon"
+    android:layout_width="64dp"
+    android:layout_height="64dp"
+    android:src="@drawable/ic_success"
+    app:lottie_autoPlay="true"
+    app:lottie_loop="true"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:lottie_rawRes="@raw/done"/>
+
+        <TextView
+            android:id="@+id/successText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/intrusans_semibold"
+            android:text="Success!"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/successIcon" />
+
+<Button
+android:id="@+id/okButton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="OK"
+android:layout_marginTop="24dp"
+android:backgroundTint="@color/primary_green"
+android:textColor="@color/white"
+app:layout_constraintTop_toBottomOf="@id/successText"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

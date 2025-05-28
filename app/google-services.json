@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "535727027424",
+    "project_id": "fireandroid-9111c",
+    "storage_bucket": "fireandroid-9111c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535727027424:android:f8c1f9f75de1a2d1bf8c85",
+        "android_client_info": {
+          "package_name": "lk.sheha.agriconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "535727027424-qha7p6p9ldcmlfb81j2octmu5150599c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lk.sheha.agriconnect",
+            "certificate_hash": "bc1e81c2ea3138c7002dc57063b7d7eb94782942"
+          }
+        },
+        {
+          "client_id": "535727027424-5g4t51uuof368u66pif4frh08ecmd5e1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrD7dNhpVZ8WcktYGaz6w5UQW7TqiQTuE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "535727027424-5g4t51uuof368u66pif4frh08ecmd5e1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

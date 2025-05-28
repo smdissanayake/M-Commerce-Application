@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/intrusans_semibold"
+        android:text="Profile"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView31">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    app:cardCornerRadius="100dp"
+                    app:cardElevation="0dp">
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/icon_farmer" />
+                </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="TextView" />
+
+
+                    <ImageView
+                        android:visibility="gone"
+                        android:id="@+id/imageView10"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="0"
+                        android:maxWidth="30dp"
+                        android:maxHeight="30dp"
+                        android:src="@drawable/icon_verified" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:fontFamily="@font/instrumentsans_bold"
+                android:paddingLeft="15dp"
+                android:text="Store"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/icon_registratio"
+                    android:fontFamily="@font/intrusans_semibold"
+                    android:gravity="center|left"
+                    android:paddingVertical="8dp"
+                    android:paddingLeft="10dp"
+                    android:text="  My Profile"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/icon_myorder2"
+                    android:fontFamily="@font/intrusans_semibold"
+                    android:gravity="center|left"
+                    android:paddingVertical="8dp"
+                    android:paddingLeft="10dp"
+                    android:text="   My Products"
+                    />
+
+
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/icon_myorder"
+                    android:fontFamily="@font/intrusans_semibold"
+                    android:gravity="center|left"
+                    android:paddingVertical="8dp"
+                    android:paddingLeft="10dp"
+                    android:text="  Add Product"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/icon_outbox"
+                    android:fontFamily="@font/intrusans_semibold"
+                    android:gravity="center|left"
+                    android:paddingVertical="8dp"
+                    android:paddingLeft="10dp"
+                    android:text="  My Reqest"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|left"
+                    android:drawableLeft="@drawable/icon_inbox"
+                    android:fontFamily="@font/intrusans_semibold"
+                    android:gravity="center|left"
+                    android:paddingVertical="8dp"
+                    android:paddingLeft="10dp"
+                    android:text="  Inbox Request"
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/activate_profilr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/icons8_verified_30"
+                    android:fontFamily="@font/intrusans_semibold"
+                    android:gravity="center|left"
+                    android:paddingVertical="8dp"
+                    android:paddingLeft="10dp"
+                    android:text="  Activate Profile"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
